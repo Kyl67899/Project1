@@ -1,3 +1,26 @@
+h1{
+    text-align: center;
+}
+
+/* images */
+img{
+    width: 490px;
+    height: 350px;
+    border: 2px solid black;
+    display: inline-block;
+}
+
+.middle{
+    width: 500px;
+    /* height: 250px; */
+    border: 4px solid lightblue;
+    display: inline-block;
+    margin-bottom: 10px;
+    background-color: lightslategray;
+    padding: 15px;
+}
+
+
 /* nav */
 .nav, footer{
     /* padding-left: 230px; */

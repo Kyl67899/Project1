@@ -18,7 +18,6 @@
 }
 
 /* box */
-
 .box{
     border: 2px solid black;
     background-color: blue;
@@ -45,9 +44,12 @@
 }
 
 /* table */
-
 table{
     border: 2px solid black;
+}
+
+.pink{
+    background-color: pink;
 }
 
 .green{
