@@ -1,0 +1,77 @@
+*{
+    scroll-behavior: smooth;
+}
+/* heading */
+
+.center{
+    text-align: center;
+}
+
+/* img */
+.left, .right {
+    width: 165px;
+    height: 130px;
+}
+
+.right {
+    float: right;
+}
+
+/* box */
+
+.box{
+    border: 2px solid black;
+    background-color: blue;
+}
+
+/* image Iceland */
+.iceland, .iceland1{
+    width: 350px;
+    height: 350px;
+    border: 2px solid purple;
+}
+
+/* image Iceland and Glaciers */
+
+/* newfeed text */
+.h3{
+    font-style: italic;
+}
+
+.p{
+    text-indent: 50px;
+    /* text: wrap; */
+    /* line-height: 0.8; */
+}
+
+/* table */
+
+table{
+    border: 2px solid black;
+}
+
+.green{
+    background-color: lightgreen;
+}
+
+/* contact me */
+
+.img1{
+    width: 50px;
+    padding-left: 25px;
+}
+
+.link{
+    padding-left: 15px;
+}
+
+/* nav */
+.nav, footer{
+    /* padding-left: 230px; */
+    text-align: center;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+}

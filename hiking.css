@@ -1,0 +1,22 @@
+h1{
+    text-align: center;
+}
+
+img{
+    width: 400px;
+    border: 2px solid black;
+}
+
+
+
+
+/* nav */
+.nav, footer{
+    /* padding-left: 230px; */
+    text-align: center;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+}
