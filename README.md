@@ -4,4 +4,6 @@ https://kyl67899.github.io/Project1/
 
 
 # Description:
-#### Used HTML and CSS to create a multiple page layouts which would present information about Iceland. 
+#### Used basic Hypertext Markup Language tags, elements and attributes to create different web layouts.
+
+#### Added cascading style sheets to style the webpages.
