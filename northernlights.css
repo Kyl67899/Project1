@@ -20,6 +20,10 @@ img{
     padding: 15px;
 }
 
+.box{
+    display: flex;
+    justify-content: space-evenly;
+}
 
 /* nav */
 .nav, footer{
