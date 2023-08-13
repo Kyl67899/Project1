@@ -3,7 +3,7 @@ from flask_sqlalchemy import SQLAlchemy
 # from . import db
 
 app=Flask(__name__)
-app.config["SQLALCHEMY_DATABASE_URI"]="postgresql://postgres:123@localhost/budapp"
+app.config["SQLALCHEMY_DATABASE_URI"]="postgresql://postgres:123@localhost/contactForm"
 db=SQLAlchemy(app)
 
 @app.route("/")
@@ -13,14 +13,14 @@ def index():
 class Data(db.Model):
     __tablename__="data"
     id=db.Column(db.integer, primary_key==True)
-    name=db.Column(db.String(120), unique==True)
-    amount=db.Column(db.Integer)
-    date=db.Column(db.DATE)
+    firstName=db.Column(db.String(120), unique==True)
+    lastName=db.Column(db.Integer)
+    email_name_=db.Column(db.DATE)
     
-def __init__(self, email_, amount_, date_):
-    self.name=email_
-    self.amount=amount_
-    self.date=date_
+def __init__(self, firstName_, lastName_, email_name_):
+    self.firstName_=firstName_
+    self.lastName_=lastName_
+    self.email_name_=email_name_
     
 with app.app_context():
     db.create_all()
@@ -29,13 +29,13 @@ with app.app_context():
 
 def thanks():
     if request.method=='POST':
-        email=request.form["email_name"]
-        name=request.form["name_name"]
-        date=request.form["date_name"]
+        firstName_=request.form["firstName_"]
+        lastName_=request.form["lastName_"]
+        email_name_=request.form["email_name_"]
         print(request.form)
         
-        print(name,amount,date)
-        data=Data(name,amount,date)
+        print(firstName_, lastName_, email_name_)
+        data=Data(firstName_, lastName_, email_name_)
         db.session.add(data)
         db.session.commit()
         
