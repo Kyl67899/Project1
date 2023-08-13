@@ -3,8 +3,8 @@
 }
 /* heading */
 
-.line{
-    bottom: 150px;
+.header{
+    padding-top: 128px;
 }
 
 .center{
@@ -39,24 +39,6 @@
     }
 
     /* box title */
-
-    /* image Iceland */
-    /* .iceland, .iceland1{
-        width: 350px;
-        height: 350px;
-        border: 2px solid purple;
-    } */
-
-    /* .box-img-left{
-        float: left;
-    }
-
-    .box-img-right{
-        float: right;
-        padding-right: 30px;
-        position: relative;
-        top: 370px;
-    } */
 
     /* image Iceland and Glaciers */
 
@@ -135,10 +117,28 @@
     }
     
     #wrap-2 {
+        max-width: 1115px;
         margin: 14em 2em;
         padding: 15px;
     }
 
+    @media screen and (max-width: 786px) {
+        .box{
+            width: auto;
+            height: 665px;
+        }
+
+        #wrap-2{
+            max-width: ;
+            margin: 0;
+            padding-left: 8px;
+        }
+
+    .fig-left{
+        width: 250px;
+        height: 180px;
+    }
+}
     /* table */
 
 /* contact me */
