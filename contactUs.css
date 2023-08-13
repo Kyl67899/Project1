@@ -1,3 +1,7 @@
+body{
+    background-color: #0ad514;
+}
+
 /* nav */
 .nav, footer{
     /* padding-left: 230px; */
@@ -7,4 +11,38 @@
 nav ul li{
     list-style-type: none;
     display: inline-block;
+}
+
+h1{
+    text-align: center;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    color: #fff;
+    /* width: 250px; */
+    height: 550px;
+}
+
+.form-form{
+    background-color: red;
+    height: 400px;
+    width: 270px;
+    padding: 8px 6px;
+}
+
+.firstName{
+
+}
+
+.lastName{
+
+}
+
+.email_name{
+
 }
