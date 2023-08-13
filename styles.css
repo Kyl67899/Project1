@@ -3,116 +3,144 @@
 }
 /* heading */
 
+.line{
+    bottom: 150px;
+}
+
 .center{
     text-align: center;
+    padding-top: 25px;
 }
 
 /* img */
-.wrap-img-left, .wrap-img-right, .left, .right{
+.left, .right{
     width: 165px;
     height: 130px;
 }
 
+.left {
+    float: left;
+    margin-right: 1.5em;
+}
+
 .right {
     float: right;
+    margin-left: 1em;
 }
+
+/* img */
 
 /* box */
-.box{
-    border: 2px solid black;
-    background-color: rgb(8, 144, 126);
-    width: 100%;
-    height: 1000px;
-}
+    .box{
+        border: 2px solid black;
+        background-color: rgb(8, 144, 126);
+        width: auto;
+        height: 1000px;
+    }
 
-/* image Iceland */
-.iceland, .iceland1{
-    width: 350px;
-    height: 350px;
-    border: 2px solid purple;
-}
+    /* box title */
 
-.box-img-left{
-    float: left;
-}
+    /* image Iceland */
+    /* .iceland, .iceland1{
+        width: 350px;
+        height: 350px;
+        border: 2px solid purple;
+    } */
 
-.box-img-right{
-    float: right;
-    padding-right: 30px;
-    position: relative;
-    top: 370px;
-}
+    /* .box-img-left{
+        float: left;
+    }
 
-/* image Iceland and Glaciers */
+    .box-img-right{
+        float: right;
+        padding-right: 30px;
+        position: relative;
+        top: 370px;
+    } */
 
-/* newfeed text */
-.h3{
-    font-style: italic;
-}
+    /* image Iceland and Glaciers */
 
-.p{
-    text-indent: 50px;
-    /* text: wrap; */
-    /* line-height: 0.8; */
-}
+    /* newfeed text */
+    .h3{
+        font-style: italic;
+    }
 
-/* p:first-child{
-    float: none;
-}
+    .p{
+        text-indent: 50px;
+        /* text: wrap; */
+        /* line-height: 0.8; */
+    }
 
-p:nth-child(2){
-    float: none;
-} */
+    /* figures/caption */
+    .fig-left-caption, .fig-right-caption{
+        font-size: 9pt;
+        color: #fff;
+    }
 
-figure {
-    width: 100px;
-    padding: 0px;
-    margin: 10px;
-    float: left;
-}
 
-figcaption {
-    font-size: 9pt;
-}
+    .fig-left{
+        /* border: thin #c0c0c0 solid; */
+        display: flex;
+        flex-flow: column;
+        padding: 5px;
+        max-width: 420px;
+        margin: auto;
+        width: 300px;
+        height: 280px;
+        float: left;
+    }
 
-figure {
-    /* border: thin #c0c0c0 solid; */
-    display: flex;
-    flex-flow: column;
-    padding: 5px;
-    max-width: 420px;
-    margin: auto;
-    width: 230px;
-    height: 185px;
-}
-  
-.wrap-img-left {
-    max-width: 220px;
-    max-height: 150px;
-    width: 100%;
-    height: 100%;
-}
-  
-figcaption {
-    /* background-color: #222; */
-    color: #fff;
-    font: italic smaller sans-serif;
-    padding: 3px;
-    text-align: left;
-}
+    .fig-right{
+        /* background-color: #222; */
+        color: #fff;
+        font: italic smaller sans-serif;
+        padding: 3px;
+        float: right;
+        top: 150px;
+    }
 
-/* table */
-table{
-    border: 2px solid black;
-}
+    /* figures/caption */
+    
+    .wrap-img-left {
+        max-width: 220px;
+        max-height: 150px;
+        width: 500px;
+        height: 500px;
+        border: 2px solid black;
+    }
 
-#pink{
-    background-color: pink;
-}
+    .wrap-img-right{
+        max-width: 220px;
+        max-height: 150px;
+        width: 500px;
+        height: 500px;
+        border: 2px solid black;
+        float: right;
+    }
+    
+    /* table */
+    table{
+        border: 2px solid black;
+    }
 
-.green{
-    background-color: lightgreen;
-}
+    #pink{
+        background-color: pink;
+    }
+
+    .green{
+        background-color: lightgreen;
+    }
+
+    #wrap {
+        margin: 3em 8em;
+    }
+    
+    #wrap-2 {
+        margin: 3em 8em;
+        padding: 15px;
+    }
+
+    /* table */
 
 /* contact me */
 
@@ -125,6 +153,8 @@ table{
     padding-left: 15px;
 }
 
+/* contact me */
+
 /* nav */
 .nav, footer{
     /* padding-left: 230px; */
@@ -136,22 +166,10 @@ nav ul li{
     display: inline-block;
 }
 
+/* nav */
+
 #box-title{
     padding-left: 15px;
-}
-
-#wrap {
-    margin: 3em 8em;
-}
-
-.left {
-    float: left;
-    margin-right: 1.5em;
-}
-
-.right {
-    float: right;
-    margin-left: 1em;
 }
 
 p {
