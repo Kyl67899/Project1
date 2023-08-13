@@ -12,37 +12,38 @@ nav ul li{
     list-style-type: none;
     display: inline-block;
 }
+/* nav */
 
 h1{
     text-align: center;
 }
 
 .form{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    background-color: black;
+    border-radius: 5px;
+    background-color: #f3f2f5;
+    padding: 20px;
+}
+
+input[type=submit], select, textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit]{
+    background-color: #0ad514;
     color: #fff;
-    /* width: 250px; */
-    height: 550px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointers;
 }
 
-.form-form{
-    background-color: red;
-    height: 400px;
-    width: 270px;
-    padding: 8px 6px;
-}
-
-.firstName{
-    
-}
-
-.lastName{
-
-}
-
-.email_name{
-
+input[type=submit]:hover{
+    background-color: #46fe33;
 }
