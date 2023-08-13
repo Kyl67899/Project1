@@ -77,7 +77,6 @@
         color: #fff;
     }
 
-
     .fig-left{
         /* border: thin #c0c0c0 solid; */
         display: flex;
@@ -136,7 +135,7 @@
     }
     
     #wrap-2 {
-        margin: 3em 8em;
+        margin: 28em 4em;
         padding: 15px;
     }
 
@@ -180,3 +179,5 @@ p {
 p:last-child {
     overflow: visible; /* this is an example of the browser default */
 }
+
+
