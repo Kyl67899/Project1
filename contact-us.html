@@ -11,10 +11,14 @@
     <p></p>
     <!-- connect the backend using flask -->
     <form action="{{url_for('thanks.html')}}" method="post">
-        <input type="text">
-        <input type="text" id="firstName" name="firstName" required>
-        <input type="text" id="lastName" name="lastName" required>
-        <input type="text" id="email_name" name="email" required>
+        <!-- <input type="text"> -->
+        <label for="firstName">First Name: </label>
+        <input type="text" id="firstName" name="firstName" placeholder="Enter your first name" required>
+        <label for="lastName">Last Name: </label>
+        <input type="text" id="lastName" name="lastName" placeholder="Enter your last name" required>
+        <label for="email">Email: </label>
+        <input type="text" id="email_name" name="email" placeholder="Enter your email address" required>
+        <!-- <textarea name="" id="" cols="30" rows="10"></textarea> -->
         <button type="submit" name="submit">Submit</button>
     </form>
 </body>
