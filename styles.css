@@ -125,7 +125,7 @@
     @media screen and (max-width: 786px) {
         .box{
             width: auto;
-            height: 665px;
+            height: 850px;
         }
 
         #wrap-2{
@@ -134,11 +134,29 @@
             padding-left: 8px;
         }
 
-    .fig-left{
-        width: 250px;
-        height: 180px;
+        .fig-left{
+            width: 250px;
+            height: 180px;
+        }
     }
-}
+
+    @media screen and (max-width: 395px) {
+        .box{
+            width: auto;
+            height: 850px;
+        }
+
+        #wrap-2{
+            /* max-width: ; */
+            margin: 0;
+            padding-left: 8px;
+        }
+
+        .fig-left{
+            width: 250px;
+            height: 1015px;
+        }
+    }
     /* table */
 
 /* contact me */
