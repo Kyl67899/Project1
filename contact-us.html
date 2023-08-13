@@ -10,18 +10,20 @@
     <h1></h1>
     <p></p>
     <!-- connect the backend using flask -->
-    <form action="{{url_for('thanks.html')}}" method="post">
-        <!-- <input type="text"> -->
-        <label for="firstName">First Name: </label>
-        <input type="text" id="firstName" name="firstName" placeholder="Enter your first name" required>
-        <label for="lastName">Last Name: </label>
-        <input type="text" id="lastName" name="lastName" placeholder="Enter your last name" required>
-        <label for="email">Email: </label>
-        <input type="text" id="email_name" name="email" placeholder="Enter your email address" required>
-        <!-- <textarea name="" id="" cols="30" rows="10"></textarea> -->
-        <button type="submit" name="submit">Submit</button>
-    </form>
-
+    <h1>Contact Us</h1>
+    <div class="form">
+        <form action="{{url_for('thanks.html')}}" method="post" class="form-form" onclick="">
+            <!-- <input type="text"> -->
+            <label for="firstName">First Name: </label>
+            <input type="text" id="firstName" name="firstName" placeholder="Enter your first name" required> <br>
+            <label for="lastName">Last Name: </label>
+            <input type="text" id="lastName" name="lastName" placeholder="Enter your last name" required> <br>
+            <label for="email" >Email: </label>
+            <input type="text" id="email_name" name="email" placeholder="Enter your email address" required> <br>
+            <!-- <textarea name="" id="" cols="30" rows="10"></textarea> -->
+            <button type="submit" name="submit" id="btn">Submit</button>
+        </form>
+    </div>
     <hr />
         <nav class="nav">
             <ul>
