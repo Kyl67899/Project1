@@ -33,11 +33,14 @@
 }
 
 .box-img-left{
-
+    float: left;
 }
 
 .box-img-right{
-
+    float: right;
+    padding-right: 30px;
+    position: relative;
+    top: 370px;
 }
 
 /* image Iceland and Glaciers */
@@ -51,6 +54,14 @@
     text-indent: 50px;
     /* text: wrap; */
     /* line-height: 0.8; */
+}
+
+p:first-child{
+    float: none;
+}
+
+p:nth-child(2){
+    float: none;
 }
 
 /* table */
