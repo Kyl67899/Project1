@@ -35,7 +35,7 @@
         border: 2px solid black;
         background-color: rgb(8, 144, 126);
         width: auto;
-        height: 1000px;
+        height: 665px;
     }
 
     /* box title */
@@ -131,11 +131,11 @@
     }
 
     #wrap {
-        margin: 3em 8em;
+        margin: 3em 2em;
     }
     
     #wrap-2 {
-        margin: 28em 4em;
+        margin: 14em 2em;
         padding: 15px;
     }
 
@@ -179,5 +179,3 @@ p {
 p:last-child {
     overflow: visible; /* this is an example of the browser default */
 }
-
-
