@@ -21,6 +21,8 @@
 .box{
     border: 2px solid black;
     background-color: blue;
+    width: 100%;
+    height: 1000px;
 }
 
 /* image Iceland */
