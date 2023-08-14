@@ -2,9 +2,12 @@ h1{
     text-align: center;
 }
 
+/* images */
 img{
-    width: 500px;
+    width: 490px;
+    height: 350px;
     border: 2px solid black;
+    display: inline-block;
 }
 
 .middle{
@@ -19,37 +22,18 @@ img{
     top: -16px;
 }
 
+.box{
+    display: flex;
+    justify-content: center;
+
+}
+
 /* nav */
 .nav, footer{
-    /* padding-left: 230px; */
     text-align: center;
 }
 
 nav ul li{
     list-style-type: none;
     display: inline-block;
-}
-
-.box{
-    display: flex;
-    /* justify-content: space-between; */
-    /* padding-left: 170px; */
-    /* padding-right: 110px; */
-}
-
-
-@media screen and (min-width: 500px){
-    .box{
-        width: -webkit-fill-available;
-    }
-
-    .middle{
-        padding-bottom: 142px;
-        width: 120px;
-        height: 320px;
-    }
-
-    p{
-
-    }
 }
