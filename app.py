@@ -27,7 +27,7 @@ def __init__(self, firstName_, lastName_, email_name_, subject_):
 # with app.app_context():
 #     db.create_all()
 
-@app.route("./thanks", methods=["POST"])
+@app.route("template/thanks.html", methods=["POST"])
 
 def thanks():
     if request.method=='POST':
