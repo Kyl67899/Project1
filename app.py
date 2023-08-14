@@ -16,11 +16,13 @@ class Data(db.Model):
     firstName=db.Column(db.String(120), unique==True)
     lastName=db.Column(db.Integer)
     email_name_=db.Column(db.DATE)
+    subject_=db.Column(db.String(240, unique=True))
     
-def __init__(self, firstName_, lastName_, email_name_):
+def __init__(self, firstName_, lastName_, email_name_, subject_):
     self.firstName_=firstName_
     self.lastName_=lastName_
     self.email_name_=email_name_
+    self.subject_=subject_
     
 with app.app_context():
     db.create_all()
@@ -32,10 +34,11 @@ def thanks():
         firstName_=request.form["firstName_"]
         lastName_=request.form["lastName_"]
         email_name_=request.form["email_name_"]
+        subject_=request.form["subject_"]
         print(request.form)
         
-        print(firstName_, lastName_, email_name_)
-        data=Data(firstName_, lastName_, email_name_)
+        print(firstName_, lastName_, email_name_, subject_)
+        data=Data(firstName_, lastName_, email_name_, subject_)
         db.session.add(data)
         db.session.commit()
         
