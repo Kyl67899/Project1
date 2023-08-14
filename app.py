@@ -8,7 +8,7 @@ app.config["SQLALCHEMY_DATABASE_URI"]="postgresql://postgres:123@localhost/conta
 
 @app.route("/")
 def index():
-    return render_template("contact-us.html")
+    return render_template("./contact-us.html")
 
 # class Data(db.Model):
 #     __tablename__="data"
@@ -27,7 +27,7 @@ def __init__(self, firstName_, lastName_, email_name_, subject_):
 # with app.app_context():
 #     db.create_all()
 
-@app.route("./thanks.html", methods=["POST"])
+@app.route("./thanks", methods=["POST"])
 
 def thanks():
     if request.method=='POST':
