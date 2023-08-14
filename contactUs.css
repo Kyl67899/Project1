@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 /* nav */
 .nav, footer{
     /* padding-left: 230px; */
@@ -43,3 +47,13 @@ input[type=submit]{
 input[type=submit]:hover{
     background-color: #0df405;
 }
+
+#firstName, #lastName, #email_name{
+    width: -webkit-fill-available;
+}
+
+@media screen and (max-width: 320px){
+    #firstName, #lastName, #email_name{
+        width: -webkit-fill-available;
+    }
+} 
