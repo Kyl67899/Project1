@@ -40,7 +40,7 @@ nav ul li{
 
 @media screen and (min-width: 500px){
     .box{
-        
+        width: -webkit-fill-available;
     }
 
     .middle{
