@@ -1,0 +1,40 @@
+h1{
+    text-align: center;
+}
+
+/* images */
+img{
+    width: 490px;
+    height: 350px;
+    border: 2px solid black;
+    display: inline-block;
+}
+
+.middle{
+    width: 500px;
+    height: 316px;
+    border: 4px solid lightblue;
+    display: inline-block;
+    margin-bottom: -10px;
+    background-color: lightslategray;
+    padding: 15px;
+    position: relative;
+    top: -16px;
+}
+
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* nav */
+.nav, footer{
+    /* padding-left: 230px; */
+    text-align: center;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+}

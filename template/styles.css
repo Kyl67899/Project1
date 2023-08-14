@@ -1,0 +1,199 @@
+*{
+    scroll-behavior: smooth;
+}
+/* heading */
+
+.header{
+    padding-top: 128px;
+}
+
+.center{
+    text-align: center;
+    padding-top: 25px;
+}
+
+/* img */
+.left, .right{
+    width: 165px;
+    height: 130px;
+}
+
+.left {
+    float: left;
+    margin-right: 1.5em;
+}
+
+.right {
+    float: right;
+    margin-left: 1em;
+}
+
+/* img */
+
+/* box */
+    .box{
+        border: 2px solid black;
+        background-color: rgb(8, 144, 126);
+        width: auto;
+        height: 665px;
+    }
+
+    /* box title */
+
+    /* image Iceland and Glaciers */
+
+    /* newfeed text */
+    .h3{
+        font-style: italic;
+    }
+
+    .p{
+        text-indent: 50px;
+        /* text: wrap; */
+        /* line-height: 0.8; */
+    }
+
+    /* figures/caption */
+    .fig-left-caption, .fig-right-caption{
+        font-size: 9pt;
+        color: #fff;
+    }
+
+    .fig-left{
+        /* border: thin #c0c0c0 solid; */
+        display: flex;
+        flex-flow: column;
+        padding: 5px;
+        max-width: 420px;
+        margin: auto;
+        width: 300px;
+        height: 280px;
+        float: left;
+    }
+
+    .fig-right{
+        /* background-color: #222; */
+        color: #fff;
+        font: italic smaller sans-serif;
+        padding: 3px;
+        float: right;
+        top: 150px;
+    }
+
+    /* figures/caption */
+    
+    .wrap-img-left {
+        max-width: 220px;
+        max-height: 150px;
+        width: 500px;
+        height: 500px;
+        border: 2px solid black;
+    }
+
+    .wrap-img-right{
+        max-width: 220px;
+        max-height: 150px;
+        width: 500px;
+        height: 500px;
+        border: 2px solid black;
+        float: right;
+    }
+    
+    /* table */
+    table{
+        border: 2px solid black;
+    }
+
+    #pink{
+        background-color: pink;
+    }
+
+    .green{
+        background-color: lightgreen;
+    }
+
+    #wrap {
+        margin: 3em 2em;
+    }
+    
+    #wrap-2 {
+        max-width: 1115px;
+        margin: 14em 2em;
+        padding: 15px;
+    }
+
+    @media screen and (max-width: 786px) {
+        .box{
+            width: auto;
+            height: 850px;
+        }
+
+        #wrap-2{
+            /* max-width: ; */
+            margin: 0;
+            padding-left: 8px;
+        }
+
+        .fig-left{
+            width: 250px;
+            height: 180px;
+        }
+    }
+
+    @media screen and (max-width: 395px) {
+        .box{
+            width: auto;
+            height: 850px;
+        }
+
+        #wrap-2{
+            /* max-width: ; */
+            margin: 0;
+            padding-left: 8px;
+        }
+
+        .fig-left{
+            width: 250px;
+            height: 1015px;
+        }
+    }
+    /* table */
+
+/* contact me */
+
+.img1{
+    width: 50px;
+    padding-left: 25px;
+}
+
+.link{
+    padding-left: 15px;
+}
+
+/* contact me */
+
+/* nav */
+.nav, footer{
+    /* padding-left: 230px; */
+    text-align: center;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+}
+
+/* nav */
+
+#box-title{
+    padding-left: 15px;
+}
+
+p {
+    margin-bottom: 2.5em;
+    overflow: hidden; /* this is what keep the <p> from wrapping */
+}
+
+p:last-child {
+    overflow: visible; /* this is an example of the browser default */
+}

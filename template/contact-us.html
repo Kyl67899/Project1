@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contactUs.css">
+    <title>Contact Us</title>
+</head>
+<body>
+    <h1></h1>
+    <p></p>
+    <!-- connect the backend using flask -->
+    <h1>Contact Us</h1>
+    <div class="form">
+        <form action="{{url_for('thanks.html')}}" method="POST" class="form-form" onclick="">
+            <!-- <input type="text"> -->
+            <label for="firstName">First Name: </label>
+            <br>
+            <input type="text" id="firstName" name="firstName" placeholder="Enter your first name" required>
+            <br />
+            <label for="lastName">Last Name: </label>
+            <br>
+            <input type="text" id="lastName" name="lastName" placeholder="Enter your last name" required>
+            <br />
+            <label for="email">Email: </label>
+            <br>
+            <input type="text" id="email_name" name="email" placeholder="Enter your email address" required>
+            <br />
+            <label for="subject" id="subject">Subject</label>
+            <textarea name="subject" id="subject" cols="10" rows="10" placeholder="Write your comment or question, here..."></textarea>
+            <input type="submit" name="submit" id="btn">
+        </form>
+    </div>
+    <hr />
+    <nav class="nav">
+        <ul>
+            <li><a href="./index.html">Home</a></li> |
+            <li><a href="./NorthernLights.html">The Northern Lights</a></li> |
+            <li><a href="./hiking.html">Hiking on Glaciers</a></li> |
+            <li><a href="./contact-us.html">Contact Us</a></li>
+        </ul>
+    </nav>
+    <footer>
+        2023 @ Project-1 <a href="https://www.github.com/kyl67899">Kyle Yarun Parsotan</a>
+    </footer>
+</body>
+</html>
